@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,7 +20,7 @@
     <title>Document</title>
   </head>
   <body>
-    <section>
+    <section class="head">
       <header>
         <div class="hero">
           <div class="nav"></div>
@@ -23,6 +29,8 @@
             <div class="nested-slides">
               <div class="slide-row" id="slide">
                 <div class="slide-col">
+                  <button>prev</button>
+                  <button>next</button>
                   <div class="slide-image">
                     <img src="./images/mobile-image-hero-1.jpg" alt="chair" />
                   </div>
@@ -38,7 +46,6 @@
                     </p>
                     <p>Shop now</p>
                   </div>
-                  <div class="indicators"></div>
                 </div>
               </div>
               <!-------->
@@ -59,8 +66,6 @@
                     </p>
                     <p>Shop now</p>
                   </div>
-
-                  <div class="indicators"></div>
                 </div>
               </div>
               <!--------->
@@ -82,8 +87,6 @@
                     </p>
                     <p>Shop now</p>
                   </div>
-
-                  <div class="indicators"></div>
                 </div>
               </div>
             </div>
@@ -107,6 +110,8 @@
         </p>
       </div>
       <img src="./images/image-about-light.jpg" alt="light room" />
+
+      <script src="script.js"></script>
     </section>
   </body>
 </html>

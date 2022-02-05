@@ -5,9 +5,17 @@
   font-weight: 500;
 }
 
+.slide-image,
+img {
+  width: 100%;
+  max-width: 375px;
+}
+
+/* AY styles */
+
 .homepage {
   max-width: 375px;
-  font-family: spartan;
+  font-family: "Spartan", sans-serif;
 }
 
 img {
