@@ -1,3 +1,10 @@
+.head {
+  max-width: 375px;
+  font-family: "Spartan", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
 .homepage {
   max-width: 375px;
   font-family: spartan;
